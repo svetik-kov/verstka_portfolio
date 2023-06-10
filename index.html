@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,12 +9,87 @@
     <meta name="keywords" content="Ключевые слова,HTML,CSS,JS">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-<header>
-    <img src="" alt="">
-    <h1>Kovalevich Svetlana</h1>
-</header>
 
+<header>
+    <nav>
+        <a href="#">Домой</a>
+        <a href="./contacts.html">Контакты</a>
+    </nav>
+    <!--  <table>
+          <th><img src="avatar.jpg" alt="avatar"></th>
+          <th>
+              <h1>Kovalevich Svetlana</h1>
+              <p><em>Frontent <strong>Developer</strong></em></p>
+          </th>
+      </table>-->
+    <img src="avatar.jpg" alt="avatar">
+    <h1>Kovalevich Svetlana</h1>
+    <p><em>Frontent <strong>Developer</strong></em></p>
+</header>
+<hr>
+<main>
+    <section>
+        <h2> Мои хобби</h2>
+        <ul>
+            <li>Путешествие</li>
+            <li>Книги</li>
+            <li>Цветы</li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h2>Социальные сети</h2>
+        <ol>
+            <li>
+                <a href="https://www.figma.com/file/SsyvCGe5leAsrCdGeaUTyI/Home-Task-%232?type=design&node-id=3-2&t=8bYqF71stg6Avsvo-0"
+                   target="_blank">VK</a></li>
+            <li>
+                <a href="https://www.figma.com/file/SsyvCGe5leAsrCdGeaUTyI/Home-Task-%232?type=design&node-id=3-2&t=8bYqF71stg6Avsvo-0"
+                   target="_blank">Instagram</a></li>
+            <li>
+                <a href="https://www.figma.com/file/SsyvCGe5leAsrCdGeaUTyI/Home-Task-%232?type=design&node-id=3-2&t=8bYqF71stg6Avsvo-0"
+                   target="_blank">YouTube</a></li>
+        </ol>
+    </section>
+    <hr>
+    <section>
+        <h2>Опыт работы</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Средняя школа №2</th>
+                <th>Средняя школа №25</th>
+            </tr>
+
+            </thead>
+            <tbody>
+            <tr>
+                <td>с 08.2010 по 08.2017</td>
+                <td>с 08.2018 по 08.2023</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>ушла в другую сферу деятельности</td>
+                <td>ушла в другую сферу деятельности</td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+    <hr>
+<section>
+    <form>
+        <label for="name"> Имя</label>
+        <input placeholder="Введите имя" type="text" id="name">
+
+        <label for="email"> Почта</label>
+        <input placeholder="Введите почту" type="text" id="email">
+        <button type="submit">Отправить данные</button>
+    </form>
+</section>
+</main>
 </body>
 </html>
