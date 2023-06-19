@@ -13,34 +13,38 @@
 </head>
 <body>
 
-<header>
+<header class="header ">
     <nav>
         <a href="#">Домой</a>
         <a href="./contacts.html">Контакты</a>
     </nav>
-    <!--  <table>
-          <th><img src="avatar.jpg" alt="avatar"></th>
-          <th>
-              <h1>Kovalevich Svetlana</h1>
-              <p><em>Frontent <strong>Developer</strong></em></p>
-          </th>
-      </table>-->
-    <img src="avatar.jpg" alt="avatar">
-    <h1>Kovalevich Svetlana</h1>
-    <p><em>Frontent <strong>Developer</strong></em></p>
+    <table>
+        <th><img class="img border" src="avatar.jpg" alt="avatar"></th>
+        <th>
+            <div class="left">
+                <h1>Kovalevich Svetlana</h1>
+                <p class="text"><em>Основная информация обо мне Frontent <strong>Developer</strong></em></p>
+                <p><strong>Социальные сети</strong></p>
+                <div><a href="#" class="a1">Telegram</a>|<a href="#" class="a2">Instagram</a></div>
+            </div>
+        </th>
+    </table>
+    <!--    <img class="img" src="avatar.jpg" alt="avatar">
+        <h1>Kovalevich Svetlana</h1>
+        <p><em>Frontent <strong>Developer</strong></em></p>-->
 </header>
-<hr>
-<main>
-    <section>
+
+<main class="main">
+    <section class="hobby border">
         <h2> Мои хобби</h2>
-        <ul>
+        <ol class="list">
             <li>Путешествие</li>
             <li>Книги</li>
             <li>Цветы</li>
-        </ul>
+        </ol>
     </section>
     <hr>
-    <section>
+    <section class="social border">
         <h2>Социальные сети</h2>
         <ol>
             <li>
@@ -80,16 +84,16 @@
         </table>
     </section>
     <hr>
-<section>
-    <form>
-        <label for="name"> Имя</label>
-        <input placeholder="Введите имя" type="text" id="name">
+    <section>
+        <form>
+            <label for="name"> Имя</label>
+            <input placeholder="Введите имя" type="text" id="name">
 
-        <label for="email"> Почта</label>
-        <input placeholder="Введите почту" type="text" id="email">
-        <button type="submit">Отправить данные</button>
-    </form>
-</section>
+            <label for="email"> Почта</label>
+            <input placeholder="Введите почту" type="text" id="email">
+            <button type="submit">Отправить данные</button>
+        </form>
+    </section>
 </main>
 </body>
 </html>

@@ -1,0 +1,50 @@
+body{
+    background-color: #e9ece9;
+}
+.img{
+    width: 200px;
+    box-shadow: 10px 5px 5px grey;
+    margin-right: 50px;
+}
+.left{
+    text-align: left;
+}
+header .text{
+color: grey;
+}
+.a1{
+    margin-right: 5px;
+}
+.a2{
+    margin: 0 0 0 5px;
+}
+.a1, .a2{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hobby{
+    background:#FCFCE7B5;
+
+}
+.border{
+    border-radius: 5px;
+}
+section{
+    margin-bottom: 10px ;
+}
+section:first-child{
+    margin-top: 10px;
+}
+.list{
+    opacity: .5;
+}
+.social{
+    background-color: #e1f8e1;
+}
+.social a{
+    text-decoration: none;
+}
+main section{
+    padding: 10px;
+}
